@@ -79,11 +79,11 @@ curl -X POST -H 'Content-Type: application/json' -d '{"login":"bob", "password":
  
 - Загрузка файла:
  
-curl -X POST -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib2IifQ.hiMVLmssoTsy1MqbmIoviDeFPvo-nCd92d4UFiN2O2I' -H 'Content-Type: octet/stream' --data-binary @yourfilename.jpg http://localhost/upload
+ curl -X POST -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib2IifQ.hiMVLmssoTsy1MqbmIoviDeFPvo-nCd92d4UFiN2O2I' -H 'Content-Type: octet/stream' --data-binary @yourfilename.jpg http://localhost/upload
  
 - Получение файла:
 
-curl -X GET http://localhost/images/4e6df220-295e-4231-82bc-45e4b1484430.jpg
+ curl -X GET http://localhost/images/4e6df220-295e-4231-82bc-45e4b1484430.jpg
  
 ---
  
